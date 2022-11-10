@@ -9,7 +9,7 @@ export default function Home() {
       <title>Stob.art</title>
       <link rel="canonical" href="https://stob.art" />
       <link rel="stylesheet" type="text/css" href="style.css"/>
-      <a rel="me" href="https://mastodon.green/@joel">Mastodon</a>
+      <link rel="me" href="https://mastodon.green/@joel">Mastodon</link>
     </Helmet>
     <div className="container">
       <h1>Stob.art</h1>
