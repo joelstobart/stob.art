@@ -9,7 +9,6 @@ export default function Home() {
       <meta charSet="utf-8" />
       <title>Stob.art</title>
       <link rel="canonical" href="https://stob.art" />
-      <a rel="me" href="https://mastodon.green/@joel"></a>
     </Helmet>
     <div className="container">
       <h1>Stob.art</h1>
