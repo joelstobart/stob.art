@@ -1,12 +1,21 @@
 h1 {
     font-family: "Audiowide", cursive;
-    color:white;
     font-size: 3rem
 }
 body {
-    background: rebeccapurple;
+    color:white;
 }
 .container {
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
+    height:100vh;
+    padding:15px;
+    background: rebeccapurple;
+}
+
+a {
+    font-family: "Century Gothic", "Audiowide", cursive;
+    color:white;
+    text-decoration: none;
+
 }

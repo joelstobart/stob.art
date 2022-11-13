@@ -9,10 +9,13 @@ export default function Home() {
       <meta charSet="utf-8" />
       <title>Stob.art</title>
       <link rel="canonical" href="https://stob.art" />
-      <link rel="me" href="https://mastodon.green/@joel"/>
+      <a rel="me" href="https://mastodon.green/@joel"></a>
     </Helmet>
     <div className="container">
       <h1>Stob.art</h1>
+      <section id="joel">
+        <a rel="me" href="https://mastodon.green/@joel">Mastodon</a>
+      </section>
     </div>
   </div>
 }
