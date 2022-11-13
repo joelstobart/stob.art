@@ -1,0 +1,12 @@
+h1 {
+    font-family: "Audiowide", cursive;
+    color:white;
+    font-size: 3rem
+}
+body {
+    background: rebeccapurple;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
