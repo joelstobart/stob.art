@@ -3,19 +3,28 @@ h1 {
     font-size: 3rem
 }
 body {
-    color:white;
+   background-color:darkslategray;
 }
 .container {
     width: 600px;
     margin: 0 auto;
-    height:100vh;
-    padding:15px;
-    background: rebeccapurple;
+    height:70vh;
+    padding:20vh 15px 15px 15px;
+
 }
-
-a {
-    font-family: "Century Gothic", "Audiowide", cursive;
-    color:white;
+#joel {
+    margin-left:100px;
+    font-family: Avenir, sans-serif;
+}
+#joel > h2 {
+    font-family: Avenir, sans-serif;
+    font-weight: lighter;
+    color: seashell;
+    margin-bottom: 0;
+    font-size:1.1rem;
+}
+#joel > a {
+    font-family: Avenir, sans-serif;
+    color: darkgrey;
     text-decoration: none;
-
 }
