@@ -4,11 +4,13 @@ h1 {
 }
 body {
    background-color:darkslategray;
+    margin:0;
 }
+body > div {margin:0}
 .container {
     width: 600px;
     margin: 0 auto;
-    height:70vh;
+    height:78.4vh;
     padding:20vh 15px 15px 15px;
 
 }
