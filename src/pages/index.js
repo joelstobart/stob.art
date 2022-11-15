@@ -4,13 +4,16 @@ import "@fontsource/audiowide"
 import './index.css'
 import background from '../images/background.webp'
 import logo from '../images/logo.png'
+import favicon from '../images/favicon.png'
 
 export default function Home() {
   return <div>
     <Helmet>
       <meta charSet="utf-8" />
       <title>Stob.art</title>
-      <link rel="canonical" href="https://stob.art" />
+      <link rel="icon" type="image/x-icon" href={`${favicon}`}/>
+
+    <link rel="canonical" href="https://stob.art" />
     </Helmet>
     <div className="container" style={{ backgroundImage: `url("${background}")`, backgroundSize: `contain` }}>
       <h1><img alt={"Stob.art"} width={"400px"} style={{marginLeft:"100px"}} src={logo}/></h1>
