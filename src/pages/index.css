@@ -8,14 +8,14 @@ body {
 }
 body > div {margin:0}
 .container {
-    width: 600px;
+    width: 60%;
     margin: 0 auto;
     height:78.4vh;
-    padding:20vh 15px 15px 15px;
+    padding:20vh 15px 15px 20%;
 
 }
 #joel {
-    margin-left:100px;
+    margin-left:250px;
     font-family: Avenir, sans-serif;
 }
 #joel > h2 {
