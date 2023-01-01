@@ -13,11 +13,12 @@ export default function Home() {
       <meta charSet="utf-8" />
       <title>Stob.art</title>
       <link rel="icon" type="image/x-icon" href={`${favicon}`}/>
-
-    <link rel="canonical" href="https://stob.art" />
+      <link rel="canonical" href="https://stob.art" />
     </Helmet>
-    <div className="container" style={{ backgroundImage: `url("${background}")`, backgroundSize: `contain` }}>
-      <h1><img alt={"Stob.art"} width={"400px"} style={{marginLeft:"100px"}} src={logo}/></h1>
+    <div className="container" style={{ backgroundImage: `url("${background}")`, backgroundSize: `cover` }}>
+      <h1 style={{width:"300px",margin:"50px auto"}}>
+        <img alt={"Stob.art"}  style={{ width:"80%", maxWidth:"300px"}} src={logo}/>
+      </h1>
       <section id="joel">
         <a rel="me" title={"Mastodon"} href="https://mastodon.green/@joel"><img width={"25px"} height={"25px"}  alt={"Mastodon Icon"} src={`${mastodon}`}/></a>
       </section>

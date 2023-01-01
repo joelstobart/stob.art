@@ -1,30 +1,22 @@
-h1 {
-    font-family: "Audiowide", cursive;
-    font-size: 3rem
-}
+
 body {
-   background-color:darkslategray;
+   background-color:#a4adba;
     margin:0;
 }
 body > div {margin:0}
 .container {
     width: 60%;
     margin: 0 auto;
-    height:78.4vh;
-    padding:20vh 15px 15px 20%;
+    height:100vh;
+    padding:15px 15px 15px 15px;
 
 }
 #joel {
-    margin-left:250px;
+    margin: 0 auto;
+    width:50px;
     font-family: Avenir, sans-serif;
 }
-#joel > h2 {
-    font-family: Avenir, sans-serif;
-    font-weight: lighter;
-    color: seashell;
-    margin-bottom: 0;
-    font-size:1.1rem;
-}
+
 #joel > a {
     font-family: Avenir, sans-serif;
     color: darkgrey;
